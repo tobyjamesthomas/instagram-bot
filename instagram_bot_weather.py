@@ -4,10 +4,16 @@ from os import path
 import re
 import json
 
+"""
+TODO:
+    - Weather API not working anymore, replace with better one
+"""
+
 # Initialize InstagramBot
 ig = InstagramBot()
 
 # Get today's weather forcast
+# TODO: Weather API no longer working
 weather = Weather(unit=Unit.CELSIUS)
 location = weather.lookup('4118') # Toronto WOEID
 forecast = location.forecast[0]
