@@ -34,7 +34,7 @@ class InstagramBot():
         assert self.options.headless
 
         # Create browser and navigate to Instagram
-        self.browser = webdriver.Chrome()
+        self.browser = webdriver.Chrome(chrome_options = self.options)
         self.browser.get(INSTAGRAM_FRONTPAGE)
         assert "Instagram" in self.browser.title
 
