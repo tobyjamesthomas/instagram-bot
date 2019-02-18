@@ -3,22 +3,24 @@ from instagram_bot import InstagramBot
 # Initiate bot
 ig = InstagramBot()
 
-# Like an image with a given url
-# Returns the image's username
-# if return_user = True (default False)
+# Likes a post given the post's url
+# Returns username if return_user
+# (return_user = False by default)
 url = 'https://www.instagram.com/p/BnZBdTVluBA/'
 username = ig.like(url, return_user = True)
 
-# Likes a user's first p posts
+# Like a user's first p posts given
+# their username and the number of posts
 # (p = 3 by default)
 username = 'tobytrek'
-ig.like_user(username, p = 5)
+ig.like_user(username, p=5)
 
-# Likes the u most recent posts with a given hashtag
-# Then proceed to like the first u users' p posts
+# Like the first p posts of the first u users
+# on from a hashtag page given the hashtag,
+# number of users and number of posts
 # (u = 5, p = 3 by default)
 hashtag = 'torontoclx'
-ig.like_hashtag(hashtag, u = 3, p = 3)
+ig.like_hashtag(hashtag, u=3, p=5)
 
 # Example usage over list of hashtags:
 hashtags = ['bokeh_kings', 'moodygang', 'eclectic_shotz',
