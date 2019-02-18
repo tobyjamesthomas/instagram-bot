@@ -33,7 +33,7 @@ from instagram_bot import InstagramBot
 ig = InstagramBot()
 ```
 
-### Like Post
+### Like post
 Like a post given the post's url:
 ```python
 url = 'https://www.instagram.com/p/Bjhav3XFUyd/'
