@@ -17,6 +17,7 @@ TODO:
     - double_click doesn't work on videos
     - only like users & posts if they haven't been liked before
     - implement max like cap
+    - use better variable names for like_hashtag and like_user
 """
 
 class InstagramBot():
