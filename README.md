@@ -74,3 +74,8 @@ Note: You can change the number of posts / users / hastags liked. See [instagram
 ## Contribute!
 
 Feel free to fork this project and add to it 😊
+1. Fork this project
+2. Create a branch for your feature (git checkout -b my-feature)
+3. Add and commit your changes (git commit -am 'My awesome feature')
+4. Push to the remote branch (git push origin my-feature)
+5. Create new Pull Request
