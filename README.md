@@ -1,5 +1,5 @@
 # InstagramBot
-Instagram bot that only likes ❤️ because fake comments and follow/unfollows are annoying 👎
+An Instagram bot that only likes ❤️ because fake comments and follow/unfollows are annoying 👎
 
 ## Installation
 
